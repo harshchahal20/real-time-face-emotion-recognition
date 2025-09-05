@@ -1,7 +1,6 @@
 import cv2
 from keras.models import model_from_json
 import numpy as np
-# from keras_preprocessing.image import load_img
 json_file = open("emotiondetector.json", "r")
 model_json = json_file.read()
 json_file.close()
@@ -30,8 +29,6 @@ while True:
             img = extract_features(image)
             pred = model.predict(img)
             prediction_label = labels[pred.argmax()]
-            # print("Predicted Output:", prediction_label)
-            # cv2.putText(im,prediction_label)
             cv2.putText(im, '% s' %(prediction_label), (p-10, q-10),cv2.FONT_HERSHEY_COMPLEX_SMALL,2, (0,0,255))
         cv2.imshow("Output",im)
         if cv2.waitKey(27) == ord("a"):
