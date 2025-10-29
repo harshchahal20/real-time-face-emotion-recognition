@@ -20,6 +20,7 @@ The project involved a full machine learning workflow, from data acquisition and
 ---
 
 <h2>Real-Time Pipeline Flow</h2>
+
 - Capture: OpenCV captures a frame from the webcam.
 - Detection: Then identifies all faces in the frame, returning bounding box coordinates.
 - Preprocessing: Each detected face region is cropped and resized to 48x48 pixels and converted to grayscale and normalized.
