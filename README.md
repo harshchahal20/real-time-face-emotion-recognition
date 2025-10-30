@@ -36,6 +36,7 @@ The project involved a full machine learning workflow, from data acquisition and
 ---
 
 <h2>Future Enhancements</h2>
+
 - Improve face detection accuracy to reliably find faces in various angles and conditions.
 - Expand the training dataset to classify more subtle or complex emotional states beyond the basic seven.
 - Can be put to use for real life application involving determining real time emotion recognition.
