@@ -32,6 +32,7 @@ The project involved a full machine learning workflow, from data acquisition and
 
 <h2>Result</h2>
 ![Face Emotion Recognised](image/result.png)
+
 ---
 
 <h2>Future Enhancements</h2>
